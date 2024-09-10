@@ -114,6 +114,7 @@ class RequestHandler
             $returnData = array();
             
             $returnData["session_id"] = intval($lastSessionId);
+            $returnData["uid"] = $returned_id;
             $returnData["access_token"] = $accessToken;
             $returnData["access_token_expires_in"] = $accessTokenExpirySeconds;
             $returnData["refresh_token"] = $refreshToken;

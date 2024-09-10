@@ -22,7 +22,7 @@ class User
 
     public function setID($id) {
         if (($id !== null) && (!is_numeric($id) || $id <= 0 || $id > 9223372036854775807 || $this->id !== null)) {
-            throw new UserException("Task id error");
+            throw new UserException("User id error");
         }
 
         $this->id = $id;

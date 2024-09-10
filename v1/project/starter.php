@@ -3,7 +3,11 @@
 include_once "../model/Response.php";
 include_once "../controller/db.php";
 include_once "../model/User.php";
+include_once "../model/UserGame.php";
+include_once "../model/Troop.php";
 include_once "../controller/utils/signup/RequestHandler.php";
+include_once "../controller/utils/usergame/RequestHandler.php";
+include_once "../controller/utils/troops/RequestHandler.php";
 include_once "../controller/utils/session/RequestHandler.php";
 include_once "helper.php";
 
